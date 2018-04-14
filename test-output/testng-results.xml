@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14870" started-at="2018-04-13T09:10:27Z" finished-at="2018-04-13T09:10:42Z">
+  <suite name="Default suite" duration-ms="3394" started-at="2018-04-14T07:29:10Z" finished-at="2018-04-14T07:29:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14870" started-at="2018-04-13T09:10:27Z" finished-at="2018-04-13T09:10:42Z">
-      <class name="LifeStyleDesignInternational.LDI.MemberCreation">
-        <test-method status="PASS" signature="testSetup()[pri:0, instance:LifeStyleDesignInternational.LDI.MemberCreation@6a41eaa2]" name="testSetup" is-config="true" duration-ms="13152" started-at="2018-04-13T09:10:27Z" finished-at="2018-04-13T09:10:40Z">
+    <test name="Default test" duration-ms="3394" started-at="2018-04-14T07:29:10Z" finished-at="2018-04-14T07:29:13Z">
+      <class name="LifeStyleDesignInternational.LDI.UnlockTrafficStep">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:LifeStyleDesignInternational.LDI.UnlockTrafficStep@6d4b1c02]" name="testSetup" is-config="true" duration-ms="1095" started-at="2018-04-14T07:29:10Z" finished-at="2018-04-14T07:29:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method status="FAIL" signature="scripts()[pri:0, instance:LifeStyleDesignInternational.LDI.MemberCreation@6a41eaa2]" name="scripts" duration-ms="1294" started-at="2018-04-13T09:10:41Z" finished-at="2018-04-13T09:10:42Z">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method status="FAIL" signature="scripts()[pri:0, instance:LifeStyleDesignInternational.LDI.UnlockTrafficStep@6d4b1c02]" name="scripts" duration-ms="2274" started-at="2018-04-14T07:29:11Z" finished-at="2018-04-14T07:29:13Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=64.0.3282.186)
   (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 3.16.0-71-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -23,11 +23,12 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'nadsoft-H81M-Gaming-3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-71-generic', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
-Session ID: b74b188c27497e85392324e7f9c53a2b]]>
+Session ID: 902ad2366859fb7a18f321feb93a8ce3
+*** Element info: {Using=name, value=uname}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=64.0.3282.186)
   (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 3.16.0-71-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -35,7 +36,8 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'nadsoft-H81M-Gaming-3', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.16.0-71-generic', java.version: '1.8.0_91'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 64.0.3282.186, webStorageEnabled: true}
-Session ID: b74b188c27497e85392324e7f9c53a2b
+Session ID: 902ad2366859fb7a18f321feb93a8ce3
+*** Element info: {Using=name, value=uname}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -48,9 +50,12 @@ at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttp
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
-at LifeStyleDesignInternational.LDI.MemberCreation.login(MemberCreation.java:34)
-at LifeStyleDesignInternational.LDI.MemberCreation.scripts(MemberCreation.java:24)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:397)
+at org.openqa.selenium.By$ByName.findElement(By.java:303)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at LifeStyleDesignInternational.LDI.MemberCreation.login(MemberCreation.java:37)
+at LifeStyleDesignInternational.LDI.UnlockTrafficStep.scripts(UnlockTrafficStep.java:16)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -78,15 +83,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scripts -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:LifeStyleDesignInternational.LDI.MemberCreation@6a41eaa2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-13T09:10:42Z" finished-at="2018-04-13T09:10:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LifeStyleDesignInternational.LDI.UnlockTrafficStep@6d4b1c02]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-04-14T07:29:13Z" finished-at="2018-04-14T07:29:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- LifeStyleDesignInternational.LDI.MemberCreation -->
+      </class> <!-- LifeStyleDesignInternational.LDI.UnlockTrafficStep -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

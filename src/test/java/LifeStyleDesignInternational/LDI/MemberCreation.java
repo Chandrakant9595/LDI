@@ -20,7 +20,7 @@ public class MemberCreation extends TestBase {
 	
   @Test
   public void scripts() throws IOException, InterruptedException, AWTException {
-	  //This my comment 
+	  
 	  login();
 	  createMember();
 	  assignL1();
@@ -30,13 +30,13 @@ public class MemberCreation extends TestBase {
   
   public void login() throws IOException{
 
-	  String url = getObject("URL");
+	  String url = "http://admin.lifestyledesigninternational.com";
 	  driver.get(url);
 	  
-	  String uName = getObject("UserName");
+	  String uName = "sample";
 	  driver.findElement(By.name("uname")).sendKeys(uName);
 	  
-	  String password= getObject("Password");
+	  String password= (".gg123x1");
 	  driver.findElement(By.name("pass")).sendKeys(password);
 	  
 	  driver.findElement(By.xpath(".//*[@id='form_content']/table/tbody/tr/td/table/tbody/tr[3]/td/input")).submit();

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="LifeStyleDesignInternational.LDI.MemberCreation">
+      <class name="LifeStyleDesignInternational.LDI.UnlockTrafficStep">
         <methods>
+          <include name="scripts"/>
           <include name="testSetup"/>
           <include name="tearDown"/>
-          <include name="scripts"/>
         </methods>
-      </class> <!-- LifeStyleDesignInternational.LDI.MemberCreation -->
+      </class> <!-- LifeStyleDesignInternational.LDI.UnlockTrafficStep -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -16,7 +16,7 @@ public class TestBase {
 	static Properties properties;
 	public static WebDriver driver;
 	
-	public static void loadData() throws IOException{
+	/*public static void loadData() throws IOException{
 		properties = new Properties();
 		File f = new File(System.getProperty("user.dir")+"/target/TestData.properties");
 		FileReader obj = new FileReader(f);
@@ -27,7 +27,7 @@ public class TestBase {
 		loadData();
 		String data = properties.getProperty(Data);
 		return data;
-	}
+	}*/
   
 	@BeforeClass
 	public void testSetup(){
