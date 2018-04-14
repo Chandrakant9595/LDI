@@ -20,7 +20,7 @@ public class MemberCreation extends TestBase {
 	
   @Test
   public void scripts() throws IOException, InterruptedException, AWTException {
-	  
+	  //This my comment 
 	  login();
 	  createMember();
 	  assignL1();
